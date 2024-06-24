@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+        <title>KUAM</title>
+</head>
+
+<body>
+    <div class="vstack gap-3">
+
+        <div class="headerSection container card">
+            <h1>Badminton Kejohanan Ukhwah Ahlusunnah Malaysia 2022</h1>
+            <p class="introPara">Selamat datang ke aplikasi pengurusan Badminton Kejohanan Ukhwah Ahlusunnah Malaysia
+                2022.
+                Aplikasi ini digunakan bagi tujuan pengurusan undian perlawanan bagi peringkat kumpulan dan kalah-mati.
+                Undian dijalankan secara digital bagi menentukan pasangan regu bagi setiap pemain yang berdaftar,
+                kumpulan
+                bagi regu, dan perjalanan perlawanan bagi peringkat kalah-mati.</p>
+            <p class="senaraiPemain">Pemain untuk diundi:</p>
+            <div class="playerList">
+                <ol></ol>
+            </div>
+        </div>
+
+        <!-- Group 1 -->
+        <div class="gp1 container card">
+            <div class="gp1-title">
+                <h2>Kumpulan 1</h2>
+            </div>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Nama Regu</th>
+                        <th scope="col">Pemain 1</th>
+                        <th scope="col"></th>
+                        <th scope="col">Pemain 2</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Alpha 1</th>
+                        <td class="alpha1-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-alpha1-player1"></td>
+                        <td class="alpha1-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-alpha1-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Bravo 1</th>
+                        <td class="bravo1-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-bravo1-player1"></td>
+                        <td class="bravo1-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-bravo1-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Charlie 1</th>
+                        <td class="charlie1-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-charlie1-player1"></td>
+                        <td class="charlie1-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-charlie1-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Delta 1</th>
+                        <td class="delta1-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta1-player1"></td>
+                        <td class="delta1-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta1-player2"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Group 2 -->
+        <div class="gp2 container card">
+            <div class="gp2-title">
+                <h2>Kumpulan 2</h2>
+            </div>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Nama Regu</th>
+                        <th scope="col">Pemain 1</th>
+                        <th scope="col"></th>
+                        <th scope="col">Pemain 2</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Alpha 2</th>
+                        <td class="alpha2-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-alpha2-player1"></td>
+                        <td class="alpha2-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-alpha2-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Bravo 2</th>
+                        <td class="bravo2-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-bravo2-player1"></td>
+                        <td class="bravo2-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-bravo2-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Charlie 2</th>
+                        <td class="charlie2-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-charlie2-player1"></td>
+                        <td class="charlie2-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-charlie2-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Delta 2</th>
+                        <td class="delta2-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta2-player1"></td>
+                        <td class="delta2-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta2-player2"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Group 3 -->
+        <div class="gp3 container card">
+            <div class="gp3-title">
+                <h2>Kumpulan 3</h2>
+            </div>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Nama Regu</th>
+                        <th scope="col">Pemain 1</th>
+                        <th scope="col"></th>
+                        <th scope="col">Pemain 2</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Alpha 3</th>
+                        <td class="alpha3-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-alpha3-player1"></td>
+                        <td class="alpha3-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-alpha3-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Bravo 3</th>
+                        <td class="bravo3-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-bravo3-player1"></td>
+                        <td class="bravo3-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-bravo3-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Charlie 3</th>
+                        <td class="charlie3-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-charlie3-player1"></td>
+                        <td class="charlie3-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-charlie3-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Delta 3</th>
+                        <td class="delta3-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta3-player1"></td>
+                        <td class="delta3-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta3-player2"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Group 4 -->
+        <div class="gp4 container card">
+            <div class="gp4-title">
+                <h2>Kumpulan 4</h2>
+            </div>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Nama Regu</th>
+                        <th scope="col">Pemain 1</th>
+                        <th scope="col"></th>
+                        <th scope="col">Pemain 2</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Alpha 4</th>
+                        <td class="alpha4-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-alpha4-player1"></td>
+                        <td class="alpha4-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-alpha4-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Bravo 4</th>
+                        <td class="bravo4-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-bravo4-player1"></td>
+                        <td class="bravo4-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-bravo4-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Charlie 4</th>
+                        <td class="charlie4-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-charlie4-player1"></td>
+                        <td class="charlie4-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-charlie4-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Delta 4</th>
+                        <td class="delta4-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta4-player1"></td>
+                        <td class="delta4-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta4-player2"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Group 5 -->
+        <div class="gp5 container card">
+            <div class="gp1-title">
+                <h2>Kumpulan 5</h2>
+            </div>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Nama Regu</th>
+                        <th scope="col">Pemain 1</th>
+                        <th scope="col"></th>
+                        <th scope="col">Pemain 2</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Alpha 5</th>
+                        <td class="alpha5-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-alpha5-player1"></td>
+                        <td class="alpha5-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-alpha5-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Bravo 5</th>
+                        <td class="bravo5-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-bravo5-player1"></td>
+                        <td class="bravo5-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-bravo5-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Charlie 5</th>
+                        <td class="charlie5-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-charlie5-player1"></td>
+                        <td class="charlie5-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-charlie5-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Delta 5</th>
+                        <td class="delta5-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta5-player1"></td>
+                        <td class="delta5-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta5-player2"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Group 6 -->
+        <div class="gp6 container card">
+            <div class="gp6-title">
+                <h2>Kumpulan 6</h2>
+            </div>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Nama Regu</th>
+                        <th scope="col">Pemain 1</th>
+                        <th scope="col"></th>
+                        <th scope="col">Pemain 2</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Alpha 6</th>
+                        <td class="alpha6-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-alpha6-player1"></td>
+                        <td class="alpha6-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-alpha6-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Bravo 6</th>
+                        <td class="bravo6-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-bravo6-player1"></td>
+                        <td class="bravo6-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-bravo6-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Charlie 6</th>
+                        <td class="charlie6-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-charlie6-player1"></td>
+                        <td class="charlie6-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-charlie6-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Delta 6</th>
+                        <td class="delta6-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta6-player1"></td>
+                        <td class="delta6-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta6-player2"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Group 7 -->
+        <div class="gp7 container card">
+            <div class="gp7-title">
+                <h2>Kumpulan 7</h2>
+            </div>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Nama Regu</th>
+                        <th scope="col">Pemain 1</th>
+                        <th scope="col"></th>
+                        <th scope="col">Pemain 2</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Alpha 7</th>
+                        <td class="alpha7-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-alpha7-player1"></td>
+                        <td class="alpha7-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-alpha7-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Bravo 7</th>
+                        <td class="bravo7-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-bravo7-player1"></td>
+                        <td class="bravo7-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-bravo7-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Charlie 7</th>
+                        <td class="charlie7-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-charlie7-player1"></td>
+                        <td class="charlie7-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-charlie7-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Delta 7</th>
+                        <td class="delta7-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta7-player1"></td>
+                        <td class="delta7-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta7-player2"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Group 8 -->
+        <div class="gp8 container card">
+            <div class="gp8-title">
+                <h2>Kumpulan 8</h2>
+            </div>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Nama Regu</th>
+                        <th scope="col">Pemain 1</th>
+                        <th scope="col"></th>
+                        <th scope="col">Pemain 2</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Alpha 8</th>
+                        <td class="alpha8-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-alpha8-player1"></td>
+                        <td class="alpha8-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-alpha8-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Bravo 8</th>
+                        <td class="bravo8-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-bravo8-player1"></td>
+                        <td class="bravo8-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-bravo8-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Charlie 8</th>
+                        <td class="charlie8-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-charlie8-player1"></td>
+                        <td class="charlie8-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-charlie8-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Delta 8</th>
+                        <td class="delta8-player1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta8-player1"></td>
+                        <td class="delta8-player2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta8-player2"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Knockout Stage -->
+        <div class="gp8 container card">
+            <div class="gp8-title">
+                <h2>Pusingan Kedua</h2>
+            </div>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Nama Perlawanan</th>
+                        <th scope="col">Juara</th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                        <th scope="col">Naib Juara</th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                    </tr>
+                    <tr>
+                        <th scope="row">A</th>
+                        <td>Kumpulan 1</td>
+                        <td class="gameA-pair1"></td>
+                        <td>vs</td>
+                        <td class="gameA-pair2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta8-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">B</th>
+                        <td class="gameB-pair1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta8-player1"></td>
+                        <td>vs</td>
+                        <td class="gameB-pair2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta8-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">C</th>
+                        <td class="gameC-pair1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta8-player1"></td>
+                        <td>vs</td>
+                        <td class="gameC-pair2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta8-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">D</th>
+                        <td class="gameD-pair1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta8-player1"></td>
+                        <td>vs</td>
+                        <td class="gameD-pair2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta8-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">E</th>
+                        <td class="gameE-pair1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta8-player1"></td>
+                        <td>vs</td>
+                        <td class="gameE-pair2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta8-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">F</th>
+                        <td class="gameF-pair1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta8-player1"></td>
+                        <td>vs</td>
+                        <td class="gameF-pair2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta8-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">G</th>
+                        <td class="gameG-pair1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta8-player1"></td>
+                        <td>vs</td>
+                        <td class="gameG-pair2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta8-player2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">H</th>
+                        <td class="gameH-pair1"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta8-player1"></td>
+                        <td>vs</td>
+                        <td class="gameH-pair2"></td>
+                        <td><input type="submit" value="Undi" class="btn btn-primary undi-delta8-player2"></td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+
+    </div>
+
+    <!-- Script Section -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
+    <!-- /Script Section -->
+
+</body>
+
+</html>
